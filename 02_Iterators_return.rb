@@ -30,6 +30,7 @@ end
 # MAP
 # Array -> Array
 capitalized_topics = topics.map do |topic|
+  # manipulation to apply to *each* topic
   topic.upcase
 end
 

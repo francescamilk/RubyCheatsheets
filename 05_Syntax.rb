@@ -28,6 +28,8 @@ topics = ["Ruby", "OOP", "SQL", "JavaScript"]
 puts topics[0]
 puts topics[1]
 
+topics.delete_at(-1)
+
 ### 
 
 teachers = {
